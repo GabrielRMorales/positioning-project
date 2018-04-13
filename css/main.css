@@ -36,6 +36,74 @@ article {
 	width: 55%;
 	margin: 0 auto;
 }
+#inflation-theory img {
+	height: 100%;
+	width: 100%;
+}
 #small {
+	color: grey;
 	font-size: 13px;
+}
+#more {
+	border-top: 1px solid black;
+	float: left;
+	width: 65%;
+	margin-bottom: 45px;
+}
+#more figure {
+	float: left;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#more figcaption {
+	font-size: 10px;
+	max-width: 150px;
+}
+#trending {
+	border-top: 1px solid black;
+	float: right;
+	width: 30%;
+}
+
+#trending img {
+	float: right;
+}
+#other-sections {
+	display: block;
+	clear: both;
+	border-top: 2px gray solid;
+
+}
+#other-sections ul {
+	list-style-type: none;
+	float: left;
+}
+#other-sections li {
+	margin: 15px;
+}
+#other-sections .top-li {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+#subscribe ul {
+	float: right;
+	border-left: 1px solid black;
+}
+.tiny-li {
+	padding-bottom: 10px;
+	font-size: 10px;
+}
+footer {
+	padding-top: 10px;
+	clear: both;
+	border-top: 1px solid gray;
+}
+footer li {
+	font-size: 11px;
+	color: gray;
+	display: inline-block;
+}
+footer #nav-help {
+	float: right;
 }
